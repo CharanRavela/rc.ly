@@ -12,7 +12,7 @@ router.route("").get(contoller.index);
 router.route("/get_url_id").post(contoller.url_shortener);
 
 //get all shortened urls
-router.route("/get_all_url_ids").get(contoller.get_all_url_ids);
+router.route("/get_all/url_ids").get(contoller.get_all_url_ids);
 
 //Redirecting the url id
 router.route("/:url_id").get(contoller.url_redirector);

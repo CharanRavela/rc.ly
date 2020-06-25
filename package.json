@@ -7,13 +7,13 @@
     "lib": "lib"
   },
   "dependencies": {
-    "@hapi/joi": "^15.0.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.9.20",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "@hapi/joi": "^15.0.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
