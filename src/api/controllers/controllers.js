@@ -85,7 +85,7 @@ module.exports.url_redirector = async ( req, res) => {
             var is_found = false;
             await user_collection.findOne({ url_id: req.params.url_id
             }).then( async data => {
-                console.log(data);
+                // console.log(data);
                 if(data){
 
                     redirect = data.url;
