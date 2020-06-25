@@ -1,6 +1,6 @@
 "use strict"
 
-const Joi = require('@hapi/Joi');
+const Joi = require('@hapi/joi');
 
 const user_url_data = data=> {
     const schema = Joi.object().keys({
