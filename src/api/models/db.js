@@ -3,7 +3,6 @@
 require('dotenv').config()
 
 var uri = process.env.DB_URL;
-console.log(uri);
 const mongoose = require('mongoose');
 const db = mongoose.connection;
 
