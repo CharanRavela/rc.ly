@@ -34,7 +34,7 @@ module.exports.url_shortener = async ( req, res) => {
         
         if(req.body != null){
 
-            console.log(req.body);
+            // console.log(req.body);
             const validate = user_url_data(req.body);
             
             validate.then( async (done) => {
