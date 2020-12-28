@@ -11,7 +11,8 @@ const user_url_data = data=> {
 
     });
     return  schema.validate(data);
-}
+
+};
 
 module.exports = {
 

@@ -36,7 +36,7 @@ module.exports.url_shortener = async ( req, res) => {
 
             // console.log(req.body);
             const validate = user_url_data(req.body);
-            
+            // console.log(validate);
             validate.then( async (done) => {
 
                 var url_id;
@@ -70,6 +70,7 @@ module.exports.url_shortener = async ( req, res) => {
         else{
             return res.status(400).send({ success: false, message:"Bad Request", error:"Received empty body"});
         }
+
     }
     catch(error){
         console.log(error);
